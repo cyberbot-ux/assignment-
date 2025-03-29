@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wildcard</title>
+    <link rel="stylesheet" href="style/style_main.css">  
+    
+    <link rel="stylesheet" href="style/wildcard.css">
+  </head>
+  <body>
+    <br />
+    <h1>wildcard</h1>
+  
+    <div class="navigation">
+      <a class="nav-link" href="My_history.html" target="_blank">History</a>
+      <a class="nav-link" href="home.html" target="_blank">Home</a>
+      <a class="nav-link" href="my_hobbies.html" target="_blank">Education</a>
+      <a class="nav-link" href="home.html" target="_blank">Home</a>
+    </div>
+
+    <div class="game-section">
+      <h2>🎮 Tic Tac Toe - Java GUI Project</h2>
+      <p>
+        This is a Tic Tac Toe game I built using Java Swing. It supports both Player vs Player and Player vs AI modes.
+        I implemented an easy AI with basic strategy and a clean GUI. It was a fun way to learn about GUI programming and event handling in Java.
+      </p>
+    
+      <div class="scoreboard" id="score">X Wins: 0 | O Wins: 0 | Draws: 0</div>
+      <div id="status">X's Turn</div>
+      <div class="board" id="board"></div>
+      <div class="controls">
+        <button onclick="startGame('pvp')">Player vs Player</button>
+        <button onclick="startGame('ai')">Player vs AI</button>
+      </div>
+      
+      <p>
+               🧠 Features:
+        <ul style="justify-self:center;" >
+          <li>Player vs Player and Player vs AI modes</li>
+          <li>Easy AI difficulty with basic logic</li>
+          <li>Score tracking and game reset</li>
+          <li>Simple and responsive interface</li>
+        </ul>
+      </p>
+    </div>
+    
+    <script src="sri/script.js"></script>
+    </body>
+</html>
